@@ -1,6 +1,4 @@
-// /api/course/createChapters
-
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 import { createChaptersSchema } from "@/validators/course";
 import { ZodError } from "zod";
 import { strict_output } from "@/lib/gpt";
@@ -9,16 +7,18 @@ import { prisma } from "@/lib/db";
 import { getAuthSession } from "@/lib/auth";
 import { checkSubscription } from "@/lib/subscription";
 
-export async function POST(req: Request, res: Response) {
+export async function POST(req: NextRequest) {
   try {
     const session = await getAuthSession();
     if (!session?.user) {
-      return new NextResponse("unauthorised", { status: 401 });
+      return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
     }
+
     const isPro = await checkSubscription();
     if (session.user.credits <= 0 && !isPro) {
-      return new NextResponse("no credits", { status: 402 });
+      return NextResponse.json({ error: "No credits available" }, { status: 402 });
     }
+
     const body = await req.json();
     const { title, units } = createChaptersSchema.parse(body);
 
@@ -50,6 +50,8 @@ export async function POST(req: Request, res: Response) {
       }
     );
 
+    console.log("%%%%%%%%%%%%%5555",imageSearchTerm);
+    
     const course_image = await getUnsplashImage(
       imageSearchTerm.image_search_term
     );
@@ -91,9 +93,17 @@ export async function POST(req: Request, res: Response) {
 
     return NextResponse.json({ course_id: course.id });
   } catch (error) {
-    if (error instanceof ZodError) {
-      return new NextResponse("invalid body", { status: 400 });
-    }
     console.error(error);
+
+    if (error instanceof ZodError) {
+      return NextResponse.json({ 
+        error: "Invalid input", 
+        details: error.errors 
+      }, { status: 400 });
+    }
+
+    return NextResponse.json({ 
+      error: "An unexpected error occurred" 
+    }, { status: 500 });
   }
 }
