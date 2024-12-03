@@ -14,13 +14,13 @@ import { useMutation } from "@tanstack/react-query";
 import axios from "axios";
 import { useToast } from "./ui/use-toast";
 import { useRouter } from "next/navigation";
-import SubscriptionAction from "./SubscriptionAction";
+// import SubscriptionAction from "./SubscriptionAction";
 
-type Props = { isPro: boolean };
+// type Props = { isPro: boolean };
 
 type Input = z.infer<typeof createChaptersSchema>;
 
-const CreateCourseForm = ({ isPro }: Props) => {
+const CreateCourseForm = () => {
   const router = useRouter();
   const { toast } = useToast();
   const { mutate: createChapters, isLoading } = useMutation({
@@ -169,7 +169,7 @@ const CreateCourseForm = ({ isPro }: Props) => {
           </Button>
         </form>
       </Form>
-      {!isPro && <SubscriptionAction />}
+      {/* {!isPro && <SubscriptionAction />} */}
     </div>
   );
 };
