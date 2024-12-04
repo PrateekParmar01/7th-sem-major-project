@@ -26,8 +26,11 @@ const Navbar = async (props: Props) => {
               <Link href="/create" className="mr-3">
                 Create Course
               </Link>
-              <Link href="http://localhost:8150" className="mr-3">
+              <Link href="http://localhost:8501" className="mr-3">
                 PDF Chat
+              </Link>
+              <Link href="/doubt-forum" className="mr-3">
+                Doubt Forum
               </Link>
             </>
           )}

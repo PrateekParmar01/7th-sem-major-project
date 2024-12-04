@@ -149,6 +149,8 @@ model User {
   emailVerified DateTime?
   image         String?
   credits       Int       @default(10)
+  doubts        Doubt[]
+  answers       Answer[] 
 
   accounts Account[]
   sessions Session[]
@@ -182,6 +184,7 @@ model Chapter {
   summary            String?
   unit               Unit       @relation(fields: [unitId], references: [id])
   questions          Question[]
+  doubts    Doubt[] 
 
   @@index([unitId], name: "unitId_idx")
 }
@@ -205,4 +208,39 @@ model UserSubscription {
   stripeSubscriptionId   String?
   stripePriceId          String?
   stripeCurrentPeriodEnd DateTime?
+}
+
+model Doubt {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  userId      String   @db.ObjectId
+  chapterId   String?  @db.ObjectId
+  question    String
+  description String
+  isOwner     Boolean
+  views       Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  chapter     Chapter? @relation(fields: [chapterId], references: [id])
+  answers     Answer[] @relation("DoubtAnswers")
+
+  @@index([userId], name: "userId_idx")
+  @@index([chapterId], name: "chapterId_idx")
+}
+
+
+model Answer {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  doubtId   String   @db.ObjectId
+  userId    String   @db.ObjectId
+  content   String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  doubt     Doubt    @relation("DoubtAnswers", fields: [doubtId], references: [id], onDelete: Cascade)
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([doubtId], name: "doubtId_idx")
+  @@index([userId], name: "userId_idx")
 }

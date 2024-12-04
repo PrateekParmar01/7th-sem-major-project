@@ -28,7 +28,7 @@ const CreatePage = async (props: Props) => {
       </div>
 
       <CreateCourseForm isPro={isPro} />
-    </div>
+    </div> 
   );
 };
 

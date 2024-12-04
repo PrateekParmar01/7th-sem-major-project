@@ -169,7 +169,7 @@ const CreateCourseForm = ({ isPro }: Props) => {
           </Button>
         </form>
       </Form>
-      {!isPro && <SubscriptionAction />}
+      {/* {!isPro && <SubscriptionAction />} */}
     </div>
   );
 };

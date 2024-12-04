@@ -13,7 +13,7 @@ export async function POST(req: NextRequest) {
     if (!session?.user) {
       return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
     }
-
+ 
     const isPro = await checkSubscription();
     if (session.user.credits <= 0 && !isPro) {
       return NextResponse.json({ error: "No credits available" }, { status: 402 });
