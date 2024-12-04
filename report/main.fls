@@ -880,6 +880,9 @@ INPUT Chapters/Chapter4.aux
 INPUT ./Chapters/Chapter5.aux
 INPUT Chapters/Chapter5.aux
 INPUT Chapters/Chapter5.aux
+INPUT ./Appendices/AppendixTemplate.aux
+INPUT Appendices/AppendixTemplate.aux
+INPUT Appendices/AppendixTemplate.aux
 OUTPUT main.aux
 INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -1078,6 +1081,15 @@ INPUT Chapters/Chapter5.tex
 INPUT ./Chapters/Chapter5.tex
 INPUT Chapters/Chapter5.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplr8t.tfm
+INPUT ./Appendices/AppendixTemplate.tex
+OUTPUT Appendices/AppendixTemplate.aux
+INPUT ./Appendices/AppendixTemplate.tex
+INPUT ./Appendices/AppendixTemplate.tex
+INPUT ./Appendices/AppendixTemplate.tex
+INPUT ./Appendices/AppendixTemplate.tex
+INPUT Appendices/AppendixTemplate.tex
+INPUT ./Appendices/AppendixTemplate.tex
+INPUT Appendices/AppendixTemplate.tex
 INPUT ./main.bbl
 INPUT main.bbl
 INPUT ./main.bbl
@@ -1103,6 +1115,9 @@ INPUT Chapters/Chapter4.aux
 INPUT ./Chapters/Chapter5.aux
 INPUT Chapters/Chapter5.aux
 INPUT Chapters/Chapter5.aux
+INPUT ./Appendices/AppendixTemplate.aux
+INPUT Appendices/AppendixTemplate.aux
+INPUT Appendices/AppendixTemplate.aux
 INPUT ./main.out
 INPUT ./main.out
 INPUT /home/saarthak/.texlive2022/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk

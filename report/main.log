@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.12.3)  4 DEC 2024 14:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.12.3)  4 DEC 2024 14:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -559,7 +559,7 @@ File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count326
 \l__pdf_internal_box=\box117
-) (./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux))
+) (./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux) (./Appendices/AppendixTemplate.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
@@ -783,35 +783,73 @@ Chapter 5.
 
 Package natbib Warning: Citation `gamification2021' on page 15 undefined on input line 28.
 
-[15]) [16] (./main.bbl
+[15]) [16]
+\openout2 = `Appendices/AppendixTemplate.aux'.
+
+ (./Appendices/AppendixTemplate.tex
+Underfull \hbox (badness 1286) in paragraph at lines 8--9
+[]\T1/ppl/b/n/12 Next.js\T1/ppl/m/n/12 : Next.js is a pow-er-ful frame-work for build-ing server-
+ []
+
+
+Underfull \hbox (badness 4168) in paragraph at lines 10--11
+[]\T1/ppl/b/n/12 Microsoft Gen-er-a-tive AI for Be-gin-ners - RAG and Vec-tor
+ []
+
+) [17
+
+
+
+
+] (./main.bbl
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 14.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-))
+)
+Underfull \hbox (badness 10000) in paragraph at lines 17--21
+[]\T1/ppl/m/n/12 I. R. Blog.  \T1/ppl/m/it/12 Retrieval-Augmented Gen-er-a-tion (RAG)\T1/ppl/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--21
+\T1/ppl/m/n/12 2024.  Avail-able at: []$\T1/cmtt/m/n/12 https : / / research . ibm . com / blog /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--40
+\T1/cmtt/m/n/12 microsoft . com / en-[]us / shows / generative-[]ai-[]for-[]beginners /
+ []
+
+
+Overfull \hbox (150.26672pt too wide) in paragraph at lines 35--40
+\T1/cmtt/m/n/12 retrieval-[]augmented-[]generation-[]rag-[]and-[]vector-[]databases-[]generative-[]ai-[]for-[]beginners$[]\T1/ppl/m/n/12 . 
+ []
+
+[18
+
+
+
+])
 
 Package natbib Warning: There were undefined citations.
 
-[17
-
-
-
-] (./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux))
+[19] (./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux) (./Appendices/AppendixTemplate.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 9B8ECDAD16DBEA6F8B0EEC47C6B3938D;5416.
  ) 
 Here is how much of TeX's memory you used:
- 30994 strings out of 477975
- 735487 string characters out of 5839281
+ 31043 strings out of 477975
+ 737058 string characters out of 5839281
  1861330 words of memory out of 5000000
- 50479 multiletter control sequences out of 15000+600000
+ 50513 multiletter control sequences out of 15000+600000
  532598 words of font info for 68 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  99i,7n,103p,966b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/saarthak/.texlive2022/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (25 pages, 670580 bytes).
+Output written on main.pdf (27 pages, 677667 bytes).
 PDF statistics:
- 377 PDF objects out of 1000 (max. 8388607)
- 297 compressed objects within 3 object streams
- 76 named destinations out of 1000 (max. 500000)
+ 412 PDF objects out of 1000 (max. 8388607)
+ 322 compressed objects within 4 object streams
+ 83 named destinations out of 1000 (max. 500000)
  270 words of extra memory for PDF output out of 10000 (max. 10000000)
 

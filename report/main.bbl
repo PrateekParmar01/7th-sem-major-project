@@ -1,4 +1,4 @@
-\begin{thebibliography}{5}
+\begin{thebibliography}{9}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -13,6 +13,12 @@ e.~a. Betul Ozaydin~Ozkara.
   2020.
 \newblock Available at: \url{https://files.eric.ed.gov/fulltext/EJ1272862.pdf}.
 
+\bibitem[Blog(2024)]{ibmrag2024}
+I.~R. Blog.
+\newblock \emph{Retrieval-Augmented Generation (RAG)}, 2024.
+\newblock Available at:
+  \url{https://research.ibm.com/blog/retrieval-augmented-generation-RAG}.
+
 \bibitem[Cui(2024)]{arxiv2024}
 e.~a. Cui.
 \newblock Ai and personalized learning: Bridging the gap with modern
@@ -24,6 +30,18 @@ e.~a. Cui.
 V.~Kuppuraj.
 \newblock Role of multimedia on motivation and knowledge retention.
 \newblock volume XII, 04 2020.
+
+\bibitem[Microsoft(2024)]{msrag2024}
+Microsoft.
+\newblock \emph{Microsoft Generative AI for Beginners: RAG and Vector
+  Databases}, 2024.
+\newblock GitHub Repository, Available at:
+  \url{https://learn.microsoft.com/en-us/shows/generative-ai-for-beginners/retrieval-augmented-generation-rag-and-vector-databases-generative-ai-for-beginners}.
+
+\bibitem[Prisma(2024)]{prisma2024}
+Prisma.
+\newblock \emph{Prisma Documentation}, 2024.
+\newblock Available at: \url{https://www.prisma.io/docs}.
 
 \bibitem[St-Hilaire et~al.(2022)St-Hilaire, Vu, Frau, Burns, Faraji, Potochny,
   Robert, Roussel, Zheng, Glazier, Romano, Belfer, Shayan, Smofsky, Delarosbil,
@@ -39,6 +57,11 @@ F.~St-Hilaire, D.~D. Vu, A.~Frau, N.~Burns, F.~Faraji, J.~Potochny, S.~Robert,
   learning for millions.
 \newblock \emph{ArXiv}, abs/2203.03724, 2022.
 \newblock URL \url{https://api.semanticscholar.org/CorpusID:247315465}.
+
+\bibitem[Vercel(2024)]{nextjs2024}
+Vercel.
+\newblock \emph{Next.js Documentation}, 2024.
+\newblock Available at: \url{https://nextjs.org/docs}.
 
 \bibitem[Vygotsky(1978)]{vygotsky1978}
 L.~Vygotsky.
