@@ -17,4 +17,13 @@
 \contentsline {section}{\numberline {4.1}Course generation}{10}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Generated course and quiz}{11}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Chat with PDF}{12}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Conclusion}{13}{chapter.5}%
+\contentsline {chapter}{\numberline {5}Conclusion and Future Works}{13}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Conclusion}{13}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Future Work}{14}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Cross-Platform Integration}{14}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Teacher and Expert Input}{14}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Gamification and Engagement Strategies}{15}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}Advanced Analytics and Insights}{15}{subsection.5.2.4}%
+\contentsline {subsection}{\numberline {5.2.5}Personalized Peer Interaction}{15}{subsection.5.2.5}%
+\contentsline {subsection}{\numberline {5.2.6}Adaptive Multilingual Support}{16}{subsection.5.2.6}%
+\contentsline {subsection}{\numberline {5.2.7}Ethical AI and Data Privacy}{16}{subsection.5.2.7}%

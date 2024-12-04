@@ -7,12 +7,12 @@ A level-1 auxiliary file: Chapters/Chapter2.aux
 A level-1 auxiliary file: Chapters/Chapter3.aux
 A level-1 auxiliary file: Chapters/Chapter4.aux
 A level-1 auxiliary file: Chapters/Chapter5.aux
-A level-1 auxiliary file: Appendices/AppendixTemplate.aux
 Database file #1: Ref.bib
+Warning--I didn't find a database entry for "gamification2021"
 Warning--empty journal in multimedia2020
 You've used 5 entries,
             2773 wiz_defined-function locations,
-            628 strings with 6068 characters,
+            628 strings with 6053 characters,
 and the built_in function-call counts, 3077 in all, are:
 = -- 227
 > -- 322
@@ -51,4 +51,4 @@ warning$ -- 1
 while$ -- 15
 width$ -- 0
 write$ -- 75
-(There was 1 warning)
+(There were 2 warnings)
