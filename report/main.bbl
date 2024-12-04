@@ -1,0 +1,49 @@
+\begin{thebibliography}{5}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Betul Ozaydin~Ozkara(2020)]{betul2020}
+e.~a. Betul Ozaydin~Ozkara.
+\newblock Comparison of collaborative and individual learning in online
+  learning.
+\newblock \emph{The Turkish Online Journal of Educational Technology}, 19,
+  2020.
+\newblock Available at: \url{https://files.eric.ed.gov/fulltext/EJ1272862.pdf}.
+
+\bibitem[Cui(2024)]{arxiv2024}
+e.~a. Cui.
+\newblock Ai and personalized learning: Bridging the gap with modern
+  educational goals.
+\newblock \emph{ArXiv}, 2024.
+\newblock Available at: \url{https://ar5iv.org/pdf/2404.02798.pdf}.
+
+\bibitem[Kuppuraj(2020)]{multimedia2020}
+V.~Kuppuraj.
+\newblock Role of multimedia on motivation and knowledge retention.
+\newblock volume XII, 04 2020.
+
+\bibitem[St-Hilaire et~al.(2022)St-Hilaire, Vu, Frau, Burns, Faraji, Potochny,
+  Robert, Roussel, Zheng, Glazier, Romano, Belfer, Shayan, Smofsky, Delarosbil,
+  Ahn, Eden-Walker, Sony, Ching, Elkins, Stepanyan, Matajov{\'a}, Chen,
+  Sahraei, Larson, Markova, Barkett, Charlin, Bengio, Serban, and
+  Kochmar]{StHilaire2022ANE}
+F.~St-Hilaire, D.~D. Vu, A.~Frau, N.~Burns, F.~Faraji, J.~Potochny, S.~Robert,
+  A.~Roussel, S.~Zheng, T.~Glazier, J.~V. Romano, R.~Belfer, M.~Shayan,
+  A.~Smofsky, T.~Delarosbil, S.~Ahn, S.~Eden-Walker, K.~Sony, A.~O. Ching,
+  S.~Elkins, A.~Z. Stepanyan, A.~Matajov{\'a}, V.~Chen, H.~Sahraei, R.~Larson,
+  N.~Markova, A.~Barkett, L.~Charlin, Y.~Bengio, I.~Serban, and E.~Kochmar.
+\newblock A new era: Intelligent tutoring systems will transform online
+  learning for millions.
+\newblock \emph{ArXiv}, abs/2203.03724, 2022.
+\newblock URL \url{https://api.semanticscholar.org/CorpusID:247315465}.
+
+\bibitem[Vygotsky(1978)]{vygotsky1978}
+L.~Vygotsky.
+\newblock \emph{Mind in Society: Development of Higher Psychological
+  Processes}.
+\newblock Harvard University Press, 1978.
+
+\end{thebibliography}
