@@ -2,8 +2,8 @@ import dynamic from "next/dynamic";
 import { getAuthSession } from "@/lib/auth";
 import { redirect } from "next/navigation";
 
-const ExcalidrawWrapperClient = dynamic(
-  async () => (await import("./excalidrawWrapper")).default,
+const ExcalidrawWrapper = dynamic(
+  async () => (await import("@/components/ExcalidrawWrapper")).default,
   {
     ssr: false,
   },
@@ -17,7 +17,7 @@ const Page = async () => {
   const { user } = session;
   return (
     <div className="absolute inset-0 top-16 flex flex-col overflow-hidden">
-      <ExcalidrawWrapperClient user={user}/>
+      <ExcalidrawWrapper userId={user.id}/>
     </div>
   );
 }

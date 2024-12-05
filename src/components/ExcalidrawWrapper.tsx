@@ -3,16 +3,14 @@ import * as excalidrawLib from "@excalidraw/excalidraw";
 import { Excalidraw } from "@excalidraw/excalidraw";
 import { ExcalidrawElement } from "@excalidraw/excalidraw/types/element/types";
 import { AppState, ExcalidrawImperativeAPI } from "@excalidraw/excalidraw/types/types";
-import { JWT } from "next-auth/jwt";
 import { useCallback, useEffect, useRef, useState } from "react";
 
-type Props = { user: JWT };
+type Props = { userId: string };
 
-const ExcalidrawWrapper = ({ user }: Props) => {
+const ExcalidrawWrapper = ({ userId }: Props) => {
   const [excalidrawAPI, setExcalidrawAPI] = useState<ExcalidrawImperativeAPI | null>(null);
   const [sceneElements, setSceneElements] = useState<readonly ExcalidrawElement[]>([]);
   const appStateRef = useRef<AppState | null>(null);
-
   const handleChange = useCallback(
     (elements: readonly ExcalidrawElement[], appState: AppState) => {
       if (
