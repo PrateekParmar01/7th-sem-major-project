@@ -32,6 +32,9 @@ const Navbar = async (props: Props) => {
               <Link href="/doubt-forum" className="mr-3">
                 Doubt Forum
               </Link>
+              <Link href="/notes" className="mr-3">
+                Notes
+              </Link>
             </>
           )}
           <ThemeToggle className="mr-3" />

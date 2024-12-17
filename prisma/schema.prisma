@@ -222,16 +222,7 @@ model ExcalidrawNote {
   user      User     @relation(fields: [userId], references: [id])
 }
 
-model ExcalidrawNote {
-  id        String   @id @default(auto()) @map("_id") @db.ObjectId
-  userId    String   @db.ObjectId
-  name      String
-  elements  Json
-  appState  Json
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-  user      User     @relation(fields: [userId], references: [id])
-}
+
 
 model Doubt {
   id          String   @id @default(auto()) @map("_id") @db.ObjectId
